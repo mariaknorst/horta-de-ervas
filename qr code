@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>QR Code</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+<h1>QR Code da Horta Medicinal</h1>
+
+<div id="qrcode"></div>
+
+<script>
+new QRCode(document.getElementById("qrcode"), {
+    text: "https://SEU_SITE_AQUI",
+    width: 300,
+    height: 300
+});
+</script>
+
+</body>
+</html>
