@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horta Medicinal Inteligente 2.0</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌿 Horta Medicinal Inteligente 2.0</h1>
+    <p>Digite um sintoma para descobrir ervas tradicionalmente associadas ao seu alívio.</p>
+</header>
+
+<main>
+    <input type="text" id="sintoma" placeholder="Digite um sintoma">
+    <button onclick="buscarErva()">Pesquisar</button>
+
+    <div id="resultado"></div>
+
+    <section class="galeria">
+        <h2>Ervas Medicinais</h2>
+
+        <div class="erva">
+            <img src="https://images.unsplash.com/photo-1515586000433-45406d8e6662?w=500" alt="Camomila">
+            <h3>Camomila</h3>
+        </div>
+
+        <div class="erva">
+            <img src="https://images.unsplash.com/photo-1628771065518-0d82f1938462?w=500" alt="Hortelã">
+            <h3>Hortelã</h3>
+        </div>
+
+        <div class="erva">
+            <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=500" alt="Alecrim">
+            <h3>Alecrim</h3>
+        </div>
+
+    </section>
+
+    <div class="aviso">
+        ⚠️ Este sistema possui finalidade educativa e não substitui orientação médica.
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
